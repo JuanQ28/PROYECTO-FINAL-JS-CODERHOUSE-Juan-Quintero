@@ -7,4 +7,7 @@ Códigos de descuento válidos:
 "javanoesjs"
 "juancaprofe"
 
+script2: PrimeraPreentrega
+script3: SegundaPreentrega
+
 Muchas gracias.

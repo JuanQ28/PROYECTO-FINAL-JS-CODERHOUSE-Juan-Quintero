@@ -376,6 +376,9 @@ let codigo1 = "amolosgatitos",
 codigo2 = "javanoesjs",
 codigo3 = "juancaprofe"
 
+
+//Productos
+
 let categoriasProteina = `Proteínas\n\n1.Proteína KingKong 13lb: 250.000$\n2.Master Protein 13lb: 270.000$\n3.Master Protein 5lb: 140.000$\n4.Lite protein 13lb: 310.000$\n5.Lite protein 3lb: 95.000$\n\n10.Ver carrito de compra\n0.Regresar al menú principal`, 
 categoriasCreatina = `Creatina\n\n1.CreaMaster 500gr: 230.000$\n2. KingCreatine 300gr: 150.000$\n3.Creatina 100% 300gr: 160.000$\n4.Creatina Lite 300gr: 200.000$\n5.Best Creatine 200gr: 70.000$\n\n10.Ver carrito de compra\n0.Regresar al menú principal`,
 categoriasPreentreno = `Pre-entrenos\n\n1.Psychotic 200gr: 170.000$\n2.LionBlood 300gr: 200.000$\n3.CoffeMaster 300gr: 180.000$\n4.PowerUltra 310gr: 220.000$\n\n10.Ver carrito de compra\n0.Regresar al principal`,
