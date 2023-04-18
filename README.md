@@ -1,6 +1,6 @@
 Saludos,
 
-Este es un simulador de una tienda de suplementación deportiva, con una navegación acoplada a lo permitdo dentro de la ejecución de prompts,alerts y confirms.
+Este es un simulador de una tienda de suplementación deportiva. Esta página aspira tener muchas más funciones a lo largo del tiempo.
 
 
 script2: PrimeraPreentrega
