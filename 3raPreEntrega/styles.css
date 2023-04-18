@@ -1,0 +1,169 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+
+/* h1{
+    display: inline;
+    margin: 0px;
+} */
+
+h2{
+    margin: 0px;
+}
+
+#barra{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px; 
+    border-bottom: 5px solid gray;
+    z-index: 1;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+#logoPrincipal{
+    border:0px;
+    background-color: white;
+}
+
+#logoPrincipal img{
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#polloFuerte{
+    width: 100px;
+    height: auto;
+}
+
+#carritoLogo{
+    border:0px;
+    background-color: white;
+}
+
+#carritoLogo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+header #menutext{
+   font-size: 25px;
+}
+
+#filtrador{
+/*     display: flex;
+    justify-content: space-between; */
+    position: fixed;
+    background-color: white;
+    width: 177px;
+    height:100%;
+    top: 95px;
+    padding: 0px 5px 0px 5px;
+/*     flex-wrap: wrap; */
+}
+
+/* #filtrador details{
+    display: inline;
+    position: absolute;
+    right: 0%;
+} */
+
+.subFiltro{
+    background-color: white;
+    max-width: 100%;
+}
+
+#contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1150px;
+    position: relative;
+    top: 95px;
+    left: 187px;
+}
+
+.tarjetas{
+    background-color: white;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 2.5px;
+    line-height: 0px;
+    transition: all 0.25s;
+}
+
+#contenedorProductos .tarjetas:hover{
+    transform: translateY(-10px);
+}
+
+#nombres{
+    line-height: normal;
+}
+
+.tarjetas img{
+    width: 100px;
+    height: auto;
+}
+
+#aplicarPrecios{
+    margin-right: 25px;
+}
+
+.quitar{
+    display: none;
+}
+
+#carrito{
+    position: relative;
+    top: 95px;
+}
+
+#productosAgregados{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarjetaCarrito{
+    display: flex;
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.tarjetaCarrito img{
+    width: 150px;
+    height: auto;
+}
+
+.noDisponible{
+    opacity: 0.5;
+}
+
+form{
+    background-color: white;
+    padding: 10px;
+}

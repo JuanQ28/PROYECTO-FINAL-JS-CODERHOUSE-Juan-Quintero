@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es-co">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-SUPPLEMENTATION</title>
+    <meta name="description" content="Bienvenido a HardWorkoutSupplementation, la tienda de mayor disponibilidad y calidad en el mercado en Suplementación Deportiva.">
+    <link rel="icon" href="../data/dumbbell-svgrepo-com.svg">
+    <link rel="apple-touch-icon" href="../data/dumbbell-svgrepo-com.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+
+
+    <div id="barra">
+        <div class="logos">            
+            <button id="logoPrincipal">
+                <img src="../data/dumbbell-svgrepo-com.svg" alt="Logo Principal">
+            </button>
+            <h1 id="menutext">HARDWORKOUT-SUPPLEMENTATION! LA TIENDA PARA ROMPER TUS LÍMITES! 💪</h1>
+        </div>
+        
+        <div class="logos">
+            <button id="carritoLogo">
+                <img src="../data/cart-round-1169-svgrepo-com.svg" alt="Logo del carrito" >
+            </button>
+            <img src="../data/3b0c5bd6edb2e1e093236367c5c7c55a.gif" alt="Pollo cliente de HWSupplementation" id="polloFuerte">
+        </div>
+
+    </div>
+    
+    <div id="filtrador">
+        <br>
+        <input type="search" placeholder="BUSCA TU PRODUCTO" id="buscador" autocomplete="off">
+            <br>
+            <br>
+            <h2>Filtrar</h2>
+
+            <hr>
+
+            <div class="subFiltro">
+
+                 <h3>Categorías</h3>   
+                 <label>
+                     <input type="checkbox" id="proteina" class="categorias">
+                     Proteína 
+                 </label>
+                 <br>
+                 <label >
+                     <input type="checkbox" id="creatina" class="categorias">
+                     Creatina
+                 </label>
+                 <br>
+                 <label>
+                     <input type="checkbox" id="preentreno" class="categorias">
+                     Pre-Entreno
+                 </label>
+                 <br>
+                 <label>
+                     <input type="checkbox" id="aminoacidos" class="categorias">
+                     Aminoácidos
+                 </label>
+                 <br>
+                 <label>
+                     <input type="checkbox" id="multivitaminicos" class="categorias">
+                     Multivatimínico
+                 </label>    
+                
+            </div>
+
+            <div class="subFiltro">
+               <h3>Rangos de precio</h3>
+                <p>Precio Mínimo</p>
+                <input type="number" min="0" value="0" id="inputMin">
+                <br>
+                <p>Precio máximo</p>
+                <input type="number" min="0" value="0" id="inputMax">
+                <br>
+                <br>
+                <button id="aplicarPrecios">Aplicar</button>
+                <button id="quitarFiltros">Quitar Filtros</button>
+            </div>
+    </div>
+
+    <div id="mostrador">
+        <div id="contenedorProductos">
+    
+        </div>
+    </div>
+
+    <div id="carrito" class="quitar">
+        <div id="productosAgregados">
+    
+        </div>
+        <form action="" method="post">
+            <h2>Datos de compra</h2>
+
+            <label>
+                Ingresa tu Nombre:
+                <input type="text" value="Pepito Simanca" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                title="Sólo se aceptan letras y espacios en blanco" required>
+            </label>
+            <br>
+            <label>
+                Ingresa tu correo electrónico:
+                <input type="email" value="cualquiercorreo@ext.com" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+            </label>
+            <br>
+            <label>
+                ingresa tu localización:
+                <input type="text" value="Colombia, Santander" required>
+            </label>
+            <br>
+            <textarea placeholder="Comentarios o preferencias" cols="30" rows="10" required></textarea>
+            <br>
+            <p>Costo total:</p>
+            <p id="costoTotal"></p>
+            <br>
+            <input type="reset">
+            <input type="submit" value="Finalizar compra" id="finalizarCompra">
+
+        </form>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
