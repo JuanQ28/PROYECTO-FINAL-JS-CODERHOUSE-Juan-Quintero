@@ -1,4 +1,3 @@
-//DECLARACIÓN DE VARIABLES Y FUNCIONES
 
 fetch("./productos.json")
     .then(response => response.json())
@@ -13,6 +12,8 @@ fetch("./productos.json")
         quitarFiltros.addEventListener("click",() => quitarAllFiltros(productos))
         aplicarPrecioRango.addEventListener("click",() => aplicarRangos(productos))
         
+    }).catch((error) => {
+        console.log(error)
     })
 
 //VARIABLES PRINCIPALMENTE OBTENIDAS DEL DOM    
