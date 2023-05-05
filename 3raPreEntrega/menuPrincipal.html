@@ -97,36 +97,56 @@
         </div>
         <form action="" method="post">
             <h2>Datos de compra</h2>
-
+            <br>
             <label>
                 Ingresa tu Nombre:
-                <input type="text" value="Pepito Simanca" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
-                title="Sólo se aceptan letras y espacios en blanco" required>
+                <input type="text" value="Pepito Simanca" id="nombre">
             </label>
-            <br>
+            <p id="validarNombre"></p>
             <label>
                 Ingresa tu correo electrónico:
-                <input type="email" value="cualquiercorreo@ext.com" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+                <input type="email" value="alguien@algunlugar.es" id="correo">
             </label>
-            <br>
+            <p id="validarCorreo"></p>
             <label>
-                ingresa tu localización:
-                <input type="text" value="Colombia, Santander" required>
+                Ingresa tu localización:
+                <input type="text" value="Colombia, Santander" id="localizacion">
             </label>
-            <br>
+            <p id="validarLocalizacion"></p>
+            <label>
+                Ingresa tu dirección:
+                <input type="text" value="Diagonal 63 #16-12 Barrio Esperanza" id="direccion">
+            </label>
+            <p id="validarDireccion"></p>
             <textarea placeholder="Comentarios o preferencias" cols="30" rows="10" required></textarea>
             <br>
+            <br>
+            <label>
+                Códigos de promoción:
+                <input type="text" placeholder="Tu código aquí" autocomplete="off" id="codigoDescuento">
+            </label>
+            <p id="validarCodigo"></p>
             <p>Costo total:</p>
             <p id="costoTotal"></p>
-            <br>
             <input type="reset">
-            <input type="submit" value="Finalizar compra" id="finalizarCompra">
+            <input type="button" value="Finalizar compra" id="finalizarCompra">
 
         </form>
     </div>
 
+    <div id="resumenDeCompra" class="quitar">
+        <div id="wrapper">
+            <h2>RESUMEN DE COMPRA</h2>
+            <div id="informacionDeCompra">
+    
+            </div>
+            <button id="regresoInfo">Regresar al Menú Principal</button>
+        </div>
+    </div>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

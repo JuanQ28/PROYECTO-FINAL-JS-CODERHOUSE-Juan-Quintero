@@ -2,9 +2,11 @@ Saludos,
 
 Este es un simulador de una tienda de suplementación deportiva. Esta página aspira tener muchas más funciones a lo largo del tiempo.
 
+Muchas gracias por la formación prestada, el didactismo que imparten hace que sea muy díficil que a cualquiera no le llegue a seguir gustando la programación. Unos tesos la verdad.
 
-script2: PrimeraPreentrega
-script3: SegundaPreentrega
-Carpeta 3raPreEntrega: TerceraPreentrega
+Códigos autorizados por la empresa:
+"JAVANOESJS"
+"VIVANLOSGATITOS"
+"JUANQUITA"
 
-Muchas gracias.
+Un gusto.

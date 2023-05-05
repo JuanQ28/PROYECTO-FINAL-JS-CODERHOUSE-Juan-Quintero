@@ -41,6 +41,11 @@ h2{
     height: 50px;
     margin-right: 10px;
     margin-left: 10px;
+    transition: all 300ms;
+}
+
+#logoPrincipal img:hover{
+    transform: scale(1.15);
 }
 
 #polloFuerte{
@@ -56,6 +61,11 @@ h2{
 #carritoLogo img{
     height: 50px;
     margin-right: 10px;
+    transition: all 300ms;
+}
+
+#carritoLogo img:hover{
+    transform: scale(1.15);
 }
 
 header #menutext{
@@ -116,6 +126,7 @@ header #menutext{
 
 #nombres{
     line-height: normal;
+    text-align: center;
 }
 
 .tarjetas img{
@@ -166,4 +177,58 @@ header #menutext{
 form{
     background-color: white;
     padding: 10px;
+}
+
+.botonesCarrito{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.subTarjetaCarrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#resumenDeCompra{
+    margin:auto;
+    background-color: white;
+    position: relative;
+    top: 95px;
+    padding: 10px;
+}
+
+#wrapper{
+    background-color: white;
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 5px solid gray;
+    border-radius: 8px;
+}
+
+.subInfo{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.subInfo img{
+    height: 100px;
+    width: auto;
+}
+
+#regresoInfo{
+    margin: 10px;
 }
